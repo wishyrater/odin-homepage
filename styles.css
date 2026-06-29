@@ -1,0 +1,21 @@
+header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+main {
+    display: grid;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
